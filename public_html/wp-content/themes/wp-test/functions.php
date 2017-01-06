@@ -6,3 +6,6 @@ if ( function_exists('register_sidebar') )
         'before_title' => '<h2 class="widget_title">',
         'after_title' => '</h2>',
     ));
+
+/* カスタムメニュー */
+add_theme_support( 'menus' );

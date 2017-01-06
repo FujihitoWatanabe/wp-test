@@ -13,5 +13,8 @@
 	<div class="conatiner">
 
 		<header class="header">
-			<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" width="400" height="339" alt="WPテスト" /></h1>
+			<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" width="400" height="339" alt="WPテスト" /></a></h1>
 		</header>
+		<nav>
+			<?php wp_nav_menu( array('menu' => 'main-navi' )); ?>
+		</nav>
